@@ -1,0 +1,5 @@
+print("This example will explain how to take inputs from Python")
+a = input("Enter a number: ")
+b = input("Enter another number: ")
+c = int(a)+int(b)
+print("Addition of two numbers : {}".format(c))

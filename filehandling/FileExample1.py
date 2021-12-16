@@ -1,0 +1,7 @@
+f = open("G:/test.txt")
+print("Closed:", f.closed)
+print("is Readable: ", f.readable())
+print("Is Writable: ",f.writable())
+print("Mode: ",f.mode)
+f.close()
+print("Closed:", f.closed)
